@@ -1,0 +1,549 @@
+﻿<graph>
+  <References>
+    <PackageReference ID="95b292b9-bbb9-429a-990b-9c612fd5f6ac" Name="First experiment tutorial data" />
+    <PackageReference ID="76366b2a-067f-4966-a4f2-89770596dfc4" Name="Importers Sample Files" />
+    <PackageReference ID="a114bd6b-a198-46f1-bd82-870097e47023" Name="SEMERU WM 1.0.0.0" />
+    <PackageReference ID="6504c6de-29cb-4806-b3f3-38f156ce574f" Name="Standard Components" />
+    <PackageReference ID="f2b198ee-3595-4ff3-8a3a-1a6f5c10c341" Name="TraceLab Components" />
+    <PackageReference ID="26cf6414-ef2d-4638-a94a-06193186b37f" Name="LSIComponentPackage" />
+    <PackageReference ID="159c9994-6204-4ebf-8819-fb72381b0ded" Name="NFR classifier Package" />
+    <PackageReference ID="e6b6c24e-9811-4c8c-b897-33e474d20e89" Name="RPlugin Components" />
+  </References>
+  <ExperimentInfo>
+    <Version>2</Version>
+    <Id>b81e98e1-538f-46c7-8548-680043fb0e97</Id>
+    <Name>VSM</Name>
+    <LayoutName>EfficientSugiyama</LayoutName>
+  </ExperimentInfo>
+  <node id="Start">
+    <SerializedVertexData Version="1" X="494" Y="16">
+      <Metadata type="TraceLab.Core.Components.StartNodeMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Start" />
+    </SerializedVertexData>
+  </node>
+  <node id="End">
+    <SerializedVertexData Version="1" X="496" Y="387">
+      <Metadata type="TraceLab.Core.Components.EndNodeMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="End" WaitsForAllPredecessors="True" />
+    </SerializedVertexData>
+  </node>
+  <node id="bfcc71df-3887-48f3-ad3d-bb59baf26cc3">
+    <SerializedVertexData Version="1" X="268" Y="23">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Simple Artifacts Importer" ComponentMetadataDefinitionID="98b797b0-ff87-5d01-a4ce-34705b2496a0" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input />
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="Artifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>Artifacts1</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>Artifacts</Name>
+              <DisplayName>Artifacts location</DisplayName>
+              <Description>Location of artifacts file</Description>
+              <ValueType>TraceLabSDK.Component.Config.FilePath, TraceLabSDK, Culture=neutral, PublicKeyToken=2c83cea59a8bb151</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <FilePath>
+                  <Version>2</Version>
+                  <Relative>..\inputs\ARC-IT\arc-it_requirements.txt</Relative>
+                </FilePath>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="ecf73f24-b48e-4d71-a971-df4eda0dd07b">
+    <SerializedVertexData Version="1" X="733" Y="15">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Simple Artifacts Importer" ComponentMetadataDefinitionID="98b797b0-ff87-5d01-a4ce-34705b2496a0" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input />
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="Artifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>Artifacts2</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>Artifacts</Name>
+              <DisplayName>Artifacts location</DisplayName>
+              <Description>Location of artifacts file</Description>
+              <ValueType>TraceLabSDK.Component.Config.FilePath, TraceLabSDK, Culture=neutral, PublicKeyToken=2c83cea59a8bb151</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <FilePath>
+                  <Version>2</Version>
+                  <Relative>..\inputs\ARC-IT\arc-it_functionalObjects.txt</Relative>
+                </FilePath>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="7fc81502-6f75-4097-87a2-b528243e3801">
+    <SerializedVertexData Version="1" X="402" Y="85">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Stopwords Importer" ComponentMetadataDefinitionID="34b0a0d2-06ef-51f2-87a8-7c97c4d559bc" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input />
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="stopwords" Type="TraceLabSDK.Types.TLStopwords" IOType="Output" />
+              <MappedTo>stopwords</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>Path</Name>
+              <DisplayName>File to import</DisplayName>
+              <Description />
+              <ValueType>TraceLabSDK.Component.Config.FilePath, TraceLabSDK, Culture=neutral, PublicKeyToken=2c83cea59a8bb151</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <FilePath>
+                  <Version>2</Version>
+                  <Relative>stopwords.txt</Relative>
+                </FilePath>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="7e267d07-ed37-43f3-ac3a-f21716842f05">
+    <SerializedVertexData Version="1" X="582" Y="80">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Stopwords Importer" ComponentMetadataDefinitionID="34b0a0d2-06ef-51f2-87a8-7c97c4d559bc" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input />
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="stopwords" Type="TraceLabSDK.Types.TLStopwords" IOType="Output" />
+              <MappedTo>stopwords</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>Path</Name>
+              <DisplayName>File to import</DisplayName>
+              <Description />
+              <ValueType>TraceLabSDK.Component.Config.FilePath, TraceLabSDK, Culture=neutral, PublicKeyToken=2c83cea59a8bb151</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <FilePath>
+                  <Version>2</Version>
+                  <Relative>stopwords.txt</Relative>
+                </FilePath>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="6661df70-c6d6-4101-aa30-1d69f70eaee0">
+    <SerializedVertexData Version="1" X="211" Y="98">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Splitter" ComponentMetadataDefinitionID="f4f625b9-1f5a-525c-92ce-7825bb174981" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>Artifacts1</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifacts1</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="3de6da43-3b7d-4385-8d9f-15ab7e4b4bb9">
+    <SerializedVertexData Version="1" X="802" Y="82">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Splitter" ComponentMetadataDefinitionID="f4f625b9-1f5a-525c-92ce-7825bb174981" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>Artifacts2</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifacts2</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="9395d680-fb58-469f-9c44-36fba05f4564">
+    <SerializedVertexData Version="1" X="399" Y="167">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Stopwords Remover" ComponentMetadataDefinitionID="f6c43ea6-e933-5bd5-9c9a-7aa3ccba32f4" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>TLArtifactsCollection1</MappedTo>
+            </IOItem>
+            <IOItem>
+              <IOItemDefinition Name="stopwords" Type="TraceLabSDK.Types.TLStopwords" IOType="Input" />
+              <MappedTo>stopwords</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifactsSource</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="53535555-8b72-4d4e-a7e3-35a9daac57a1">
+    <SerializedVertexData Version="1" X="585" Y="162">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Stopwords Remover" ComponentMetadataDefinitionID="f6c43ea6-e933-5bd5-9c9a-7aa3ccba32f4" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>TLArtifactsCollection2</MappedTo>
+            </IOItem>
+            <IOItem>
+              <IOItemDefinition Name="stopwords" Type="TraceLabSDK.Types.TLStopwords" IOType="Input" />
+              <MappedTo>stopwords</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifactsTarget</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="72d6fe9f-70ee-40d5-bffe-74d802e5a188">
+    <SerializedVertexData Version="1" X="209" Y="174">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Trim and Lower" ComponentMetadataDefinitionID="2358d03c-698e-5bb7-9112-11a3a5d14b4c" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="TLArtifactsCollection" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifacts1</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="TLArtifactsCollection" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>TLArtifactsCollection1</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="ff188b9d-2774-44e9-98f2-31034bf377ed">
+    <SerializedVertexData Version="1" X="792" Y="157">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Trim and Lower" ComponentMetadataDefinitionID="2358d03c-698e-5bb7-9112-11a3a5d14b4c" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="TLArtifactsCollection" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifacts2</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="TLArtifactsCollection" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>TLArtifactsCollection2</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="55ec4e74-1112-4fa9-b548-b2c8d24f807c">
+    <SerializedVertexData Version="1" X="208" Y="250">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="CamelCase Splitter" ComponentMetadataDefinitionID="83a00f08-ac9d-57c9-8028-c6c091ceb6aa" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="ListOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifactsSource</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="ListOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>ListOfArtifactsSrc</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>ConvertLowercase</Name>
+              <DisplayName>Convert to lowercase?</DisplayName>
+              <Description>Option to convert resulting terms to lowercase.</Description>
+              <ValueType>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <boolean>true</boolean>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="6aa4c805-fc84-4e53-871a-ee476b9c8678">
+    <SerializedVertexData Version="1" X="781" Y="225">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="CamelCase Splitter" ComponentMetadataDefinitionID="83a00f08-ac9d-57c9-8028-c6c091ceb6aa" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="ListOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifactsTarget</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="ListOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>ListOfArtifactstg</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>ConvertLowercase</Name>
+              <DisplayName>Convert to lowercase?</DisplayName>
+              <Description>Option to convert resulting terms to lowercase.</Description>
+              <ValueType>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <boolean>true</boolean>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="44efaea0-7c71-4b8f-84f1-157e0c18375d">
+    <SerializedVertexData Version="1" X="269" Y="322">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="English Porter Stemmer" ComponentMetadataDefinitionID="f7fdb2e8-ce91-5385-868f-f1c4f307daba" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>ListOfArtifactsSrc</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifactsSrc2</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="cc14365b-90ae-46ca-8c6a-1398edd5f9e2">
+    <SerializedVertexData Version="1" X="712" Y="325">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="English Porter Stemmer" ComponentMetadataDefinitionID="f7fdb2e8-ce91-5385-868f-f1c4f307daba" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>ListOfArtifactstg</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="listOfArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Output" />
+              <MappedTo>listOfArtifactstg2</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="abb0b18d-e7da-45cb-a2e5-b81b0fbdad63">
+    <SerializedVertexData Version="1" X="494" Y="246">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="SEMERU - Vector Space Model" ComponentMetadataDefinitionID="83be610f-2191-589b-848f-1f339e135a46" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="TargetArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifactstg2</MappedTo>
+            </IOItem>
+            <IOItem>
+              <IOItemDefinition Name="SourceArtifacts" Type="TraceLabSDK.Types.TLArtifactsCollection" IOType="Input" />
+              <MappedTo>listOfArtifactsSrc2</MappedTo>
+            </IOItem>
+          </Input>
+          <Output>
+            <IOItem>
+              <IOItemDefinition Name="Similarities" Type="TraceLabSDK.Types.TLSimilarityMatrix" IOType="Output" />
+              <MappedTo>Similarities</MappedTo>
+            </IOItem>
+          </Output>
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues />
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <node id="7d696ee8-bfef-47b9-b2d1-bce56b1becf3">
+    <SerializedVertexData Version="1" X="498" Y="337">
+      <Metadata type="TraceLab.Core.Components.ComponentMetadata, TraceLab.Core, Culture=neutral, PublicKeyToken=2c83cea59a8bb151" Label="Similarity Matrix CSV Exporter" ComponentMetadataDefinitionID="18682efd-6125-5f84-8625-81cae452987c" WaitsForAllPredecessors="True">
+        <IOSpec Version="2">
+          <Input>
+            <IOItem>
+              <IOItemDefinition Name="SimilarityMatrix" Type="TraceLabSDK.Types.TLSimilarityMatrix" IOType="Input" />
+              <MappedTo>Similarities</MappedTo>
+            </IOItem>
+          </Input>
+          <Output />
+        </IOSpec>
+        <ConfigWrapper Version="1" IsJava="False">
+          <ConfigValues>
+            <PropertyObject>
+              <Version>3</Version>
+              <Name>Path</Name>
+              <DisplayName>File name</DisplayName>
+              <Description>Path of file to save to</Description>
+              <ValueType>TraceLabSDK.Component.Config.FilePath, TraceLabSDK, Culture=neutral, PublicKeyToken=2c83cea59a8bb151</ValueType>
+              <Visible>True</Visible>
+              <IsEnum>False</IsEnum>
+              <Value IsNull="False">
+                <FilePath>
+                  <Version>2</Version>
+                  <Relative>..\outputs\vsmresults.csv</Relative>
+                </FilePath>
+              </Value>
+            </PropertyObject>
+          </ConfigValues>
+        </ConfigWrapper>
+      </Metadata>
+    </SerializedVertexData>
+  </node>
+  <edge id="f6512880-b596-41cd-9b9b-e34d520f4fef" source="Start" target="ecf73f24-b48e-4d71-a971-df4eda0dd07b" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="7136a75f-09c9-45d5-9dcf-a11617c5a3ae" source="Start" target="bfcc71df-3887-48f3-ad3d-bb59baf26cc3" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="c14e4758-c07c-4ab1-a8af-f1d9273f7933" source="Start" target="7fc81502-6f75-4097-87a2-b528243e3801" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="19286b55-088a-4874-ae1a-eee52ff1e5e6" source="Start" target="7e267d07-ed37-43f3-ac3a-f21716842f05" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="30518a94-3c95-4c42-b1e5-61a6b79c521c" source="bfcc71df-3887-48f3-ad3d-bb59baf26cc3" target="6661df70-c6d6-4101-aa30-1d69f70eaee0" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="a04ff16b-e64c-4f49-a340-d775ab5e3913" source="ecf73f24-b48e-4d71-a971-df4eda0dd07b" target="3de6da43-3b7d-4385-8d9f-15ab7e4b4bb9" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="c72417d9-e975-4912-a28b-7e68df0541de" source="7fc81502-6f75-4097-87a2-b528243e3801" target="9395d680-fb58-469f-9c44-36fba05f4564" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="96b8290e-843a-4f49-981e-da03e23c18f4" source="7e267d07-ed37-43f3-ac3a-f21716842f05" target="53535555-8b72-4d4e-a7e3-35a9daac57a1" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="534694e5-781b-4f2f-8246-1eac516aa2e1" source="6661df70-c6d6-4101-aa30-1d69f70eaee0" target="72d6fe9f-70ee-40d5-bffe-74d802e5a188" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="e945a886-0c4e-498a-8cdb-8d6c3796a426" source="3de6da43-3b7d-4385-8d9f-15ab7e4b4bb9" target="ff188b9d-2774-44e9-98f2-31034bf377ed" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="bd7a9413-1cb4-4f11-8e0e-da2fbc7d2113" source="9395d680-fb58-469f-9c44-36fba05f4564" target="55ec4e74-1112-4fa9-b548-b2c8d24f807c" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="e7db3bc4-2860-4c6f-bef1-784019462e50" source="53535555-8b72-4d4e-a7e3-35a9daac57a1" target="6aa4c805-fc84-4e53-871a-ee476b9c8678" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="9eb29387-6671-4ac7-bb35-fac09b2c8480" source="72d6fe9f-70ee-40d5-bffe-74d802e5a188" target="9395d680-fb58-469f-9c44-36fba05f4564" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="78ae5939-334d-464b-9ce3-0592b9be5f95" source="ff188b9d-2774-44e9-98f2-31034bf377ed" target="53535555-8b72-4d4e-a7e3-35a9daac57a1" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="61565612-c798-45e1-9581-d1fdddfe3d1a" source="55ec4e74-1112-4fa9-b548-b2c8d24f807c" target="44efaea0-7c71-4b8f-84f1-157e0c18375d" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="4ea61376-56d2-41cb-86a1-6875679bb46c" source="6aa4c805-fc84-4e53-871a-ee476b9c8678" target="cc14365b-90ae-46ca-8c6a-1398edd5f9e2" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="a70e71c9-4426-4406-8a3f-f937010c8149" source="44efaea0-7c71-4b8f-84f1-157e0c18375d" target="abb0b18d-e7da-45cb-a2e5-b81b0fbdad63" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="6896cecb-f027-449f-b47e-10b45b156d71" source="cc14365b-90ae-46ca-8c6a-1398edd5f9e2" target="abb0b18d-e7da-45cb-a2e5-b81b0fbdad63" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="f2748ee6-2b99-4ddf-9869-ce4c316483d6" source="abb0b18d-e7da-45cb-a2e5-b81b0fbdad63" target="7d696ee8-bfef-47b9-b2d1-bce56b1becf3" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+  <edge id="6edbb063-e5ec-41f3-bc7a-438906b7894c" source="7d696ee8-bfef-47b9-b2d1-bce56b1becf3" target="End" isFixed="False" isVisible="True">
+    <RoutePointsCollection />
+  </edge>
+</graph>

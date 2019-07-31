@@ -1,0 +1,484 @@
+NeedID;Description
+N3;Traffic Operations need to be able to collect vehicle emissions data in order to support eco operation of HOV/HOT lane equipment.
+N4;Traffic Operations need to be able to collect traffic data in order to support eco operation of HOV/HOT lane equipment.
+N5;Traffic Operations need to be able to process current and historical data from multiple sources in order to develop current and forecasted conditions to support dynamic eco-lane operations.
+N7;Traffic Operations needs be able to provide actionable information and eco-lane direction to the driver to drive in a more environmentally friendly manner.
+N13;Traffic Operations need to be able to collect environmental, traffic, and emissions data in order to determine whether a low emissions zone should be set up.
+N14;Traffic Operations need to be able to set up a low emissions zone in order to reduce emissions within the zone.
+N15;Traffic Operations needs to be able to inform drivers, both pretrip and en-route, about low emissions zone operation and the restrictions or fees for driving into the low emissions zones.
+N16;Emissions Management Operations need to be able to monitor emissions hot spots and coordinate with Traffic Operations for the establishment of low emission zones.
+N17;Payment Operations need to be able to collect fees from drivers for entry into a low emissions zone.
+N18;Drivers need to be able to set up accounts and pay fees for the ability to operate their vehicles in a low emissions zone.
+N25;Traffic Operations need to collect data, including environmental data, to accurately know current and forecasted conditions in order to improve the traffic signal system.
+N26;Transit Operations needs to provide approaching Transit Vehicle location and heading to traffic operations so that they can adjust the signal controller signal timing in favor of the transit vehicle.
+N28;Traffic Operations needs to be able to provide both intersection geometry and signal phase and timing information to vehicles.
+N29;Traffic Operations need to process collected data, including environmental data, to accurately know current and forecasted conditions in order to improve the traffic signal system.
+N32;Traffic Operations need to be able to manage and implement control plans using collected data, including environmental data, in order to coordinate signalized intersections.
+N36;The vehicle drivers need their connected vehicle to provide recommendations for movement approaching or departing a signalized intersection in order to reduce the environmental impact of their vehicle?s operations.
+N38;Electric Charging Station Operators need to be able to provide electric charging of vehicles at designated charging stations.
+N39;Traveler Information needs to be able to provide electric charging station information to travelers.
+N42;Maintenance and construction operations need to be able to collect environmental situation data from centers, field devices and private, commercial, specialty and public fleet vehicles in order to schedule winter maintenance activities, determine the appropriate response to weather events/conditions, and track and manage response operations.
+N43;Maintenance and construction operations need to be able to process current and historical data from multiple sources in order to provide enhanced support for winter maintenance operations.
+N44;Maintenance and construction operations need to be able to create enhanced treatment plans for use by agency maintenance personnel.
+N58;Regional parking management needs to be able to share information with various transportation operations agencies in order to support multimodal travel planning, including parking reservation capabilities.
+N60;Emergency Management needs to process current and historical weather and road conditions data from multiple sources in order to generate warnings and route advisories for individual emergency responders or emergency response dispatchers.
+N61;Emergency Management needs to provide emergency responders with road weather warnings and advisories.
+N62;Emergency Management needs to provide routing information to the emergency responders.
+N68;Maintenance and construction operations need to be able to provide winter maintenance instructions including treatment route, treatment application rates, start and end times, and other treatment instructions for vehicle operators.
+N69;Maintenance and construction operations need to be able to provide winter road maintenance status to other centers.
+N72;Traffic Operations needs to collect environmental data from private, commercial, specialty and public fleet vehicles in order to provide motorists with advisories and alerts.
+N73;Traffic Operations needs to process current and historical data from multiple sources in order to generate road weather motorist warnings and advisories.
+N75;The Driver needs to be able to receive road weather warnings and advisories from Traffic Operations .
+N76;The connected vehicle needs to be able to automatically adjust its operating parameters approaching or departing a signalized intersection in order to reduce the environmental impact of the vehicle?s operation.
+N81;Traffic Operations need to be able to collect data from multiple sources to actively recommend variable speed limits which can be based on environmental conditions.
+N82;Traffic Operations need to be able to process current and historical data in order to provide recommended variable speed limits.
+N83;Traffic Operations need to be able to display variable speed limits to drivers.
+N86;Emergency Management needs to be able to determine that a crash or emergency situation has taken place, based on on-board sensor data that detect changes in velocity, vehicle orientation, and airbag status.
+N88;Drivers need to be able to automatically or manually send a mayday alert or emergency requests and provide data about the crash and the vehicle?s occupants in order to facilitate the quickest and most appropriate response.
+N89;Pedestrians need to be able to send a mayday alert to Emergency Management in order to get help from emergency services.
+N92;Drivers need to be able to rebroadcast crash alerts to remote connected vehicles as well as roadside ?hotspots? in order to forward mayday requests even in areas where no vehicle to infrastructure communications exists.
+N93;Emergency Management needs to be able to route crash alerts to the appropriate emergency communications center for action.
+N94;Emergency management needs to verify the crash alert message and/or provide additional notification to the appropriate authorities.
+N108;Traffic Operation needs to be able to collect transportation related data, including border crossing data in order to support planning and research activities that span the US land border crossings.
+N109;Border Inspection Operations need to be able to verify if the people crossing into the country have proper credentials to allow them to enter.
+N110;Border Inspection Operations need to be able to verify if the vehicle coming into the country have proper credentials to allow them to enter and comply with federal laws and regulations.
+N112;Traffic Operations need to be able to provide border status for drivers approaching the border crossing or planning to cross.
+N116;Traffic Operation centers, and other border stakeholders need to be able to monitor the traffic flow data at or near a border crossing using data from vehicles and mobile devices.
+N132;Fleet and Freight Management needs to determine the status of the contents of a container in order to provide safe and efficient movement of goods.
+N134;Fleet and Freight Management needs to be able to provide the contents and status of a container to security and public safety agencies.
+N135;Fleet and Freight Management needs to determine the operating status of its freight equipment, including trucks, trailers, containers, and chassis.
+N137;Fleet and Freight Management needs to provide the operating status of its freight equipment, including trucks, trailers, containers, and chassis to its commercial vehicle operators, intermodal freight services, and other authorized agents.
+N138;Traveler Information needs access to timely, accurate, and reliable transit and multimodal operations data, including available parking, in order to support ridematching by locating and managing meeting and drop-off points.
+N140;Traveler Information needs to accept commuter and driver information for ridesharing, including preferences, payment options, origin/destination, arrival time, departure time, number of riders, number of available passenger spaces.
+N141;Traveler Information needs to match riding commuters to drivers.
+N142;Commuters need to be able to request and confirm shared use transportation.
+N143;Traveler information needs to provide a mechanism for the confirmation of ride matching.
+N144;Emergency Management needs to be able to request signal preemption from Traffic Operations for a specific emergency vehicle.
+N145;Emergency Management needs to be able request signal preemption locally for one or more signals the vehicle is approaching so that it may quickly and safely cross the intersections.
+N146;Traffic Management needs to be able to adjust signal timing to provide signal preemption for an emergency vehicle based upon a request from Emergency Management.
+N147;Traffic Management needs to be able to support local adjustments to signal timing based upon a local preemption request and transition back to normal traffic signal operations after providing emergency vehicle preemption.
+N148;Traveler Information needs to be able to collect disaster related information from multiple sources including traffic, transit, public safety, emergency management, shelter provider, and travel service provider organizations.
+N149;Emergency Management and Traveler Information need to be able to provide evacuees with information including a shelter that matches their needs, including location, availability, and routing.
+N152;Emergency Management and Traveler Information need to be able to provide information concerning roadside resources including information provided by other evacuees to help understand availability of resources.
+N153;Emergency Management and Traveler Information need to be able to provide evacuees with information regarding when they can return to their area, including routes and road conditions.
+N155;Commercial Vehicle Fleet and Freight Management, including logistics suppliers need access to traveler information that covers the supply chain (from marine/rail terminal, to warehouse, to customers), so their dispatchers and managers can adequately plan and manage their assets.
+N156;Traveler Information needs to provide fleet and freight management with incident and road condition information to drivers and dispatchers so they can make route planning and navigation decisions internally in keeping with prevailing business practices in the industry.
+N157;Traveler Information needs to provide freight-specific routing, travel timing, and scheduling for logistics intermediaries so they have a complete data packet for informed decision making.
+N158;Traveler Information needs to provide real-time information about required permits, locations and availability of truck rest areas or parking to drivers and dispatchers to improve routing, vehicle and driver safety, and compliance with hours of service rules.
+N163;Freight Distribution and Logistics Providers need to support load matching for empty containers and chassis in order to maximize congestion avoidance, air quality, and efficiency benefits.
+N168;Traffic Management needs to collect data from freight facilities and commercial vehicle fleet management in order to support traffic signal system optimization for commercial vehicles.
+N169;Traffic Management needs to process traffic and commercial vehicle data in order to provide commercial vehicle signal priority for the efficient movement of freight.
+N171;Traffic Management needs to communicate with field equipment to provide commercial vehicle signal priority commands to the intersection.
+N172;Traffic Operations needs to be able to open and close intermittent bus lanes based on fixed times or based on request from Transit Operations in order to improve the efficiency of transit operations.
+N174;Traffic Operations needs to be able to notify drivers regarding the status of the intermittent bus lane.
+N175;Regional Transportation Operations need to have an electronic payment functionality that operates across different modes or systems.
+N176;Travelers need to be able to set up and update user accounts for a regional multimodal payment system.
+N177;Regional Transportation Agencies need to be able to perform payment reconciliation in order to obtain their share of payments from the regional payment system.
+N178;Emergency Management needs to be able to alert drivers when they have entered an incident zone and direct them to change course (merge, change lanes) as needed in order to maintain a safe distance between them and the emergency personnel.
+N179;Emergency Personnel need to be able to receive alerts whenever a vehicle is entering an incident zone and represents a potential threat to their safety.
+N180;Emergency Management needs to be able to maintain location and situational information about the emergency vehicles responding to or on the scene of an incident to be able to provide a complete picture of the response and share the status with other responding vehicles en-route.
+N181;Emergency Management needs to be able to provide real-time information on the current conditions at the incident scene to arriving responders and to other information assets.
+N183;Traffic Operations need to be able to monitor and control pedestrian crossing aspects of traffic signals in order to facilitate safe pedestrian crossings at the intersection
+N185;Traffic Operations need to be able to disseminate signal phase and timing data to connected vehicles to facilitate improved movement through intersections.
+N192;Traffic Operations needs to be able to provide to connected vehicles an indication that pedestrians may be crossing or are crossing an intersection in order to reduce the likelihood of the vehicle striking the pedestrian.
+N193;Traffic Operations needs to be able to warn pedestrians about crossing status or potential vehicle infringement into the crosswalk in order to allow the pedestrian to safely cross an intersection.
+N194;Traffic Operations needs to be able to provide intersection priority for pedestrians or bicyclists based upon requests from the pedestrians or bicyclists.
+N195;Traffic Operations needs to be able to inform pedestrians and bicyclists of the status of the intersection including the amount of time left for crossing the intersection.
+N200;Traffic Operations needs to be able to detect a queue formation using both infrastructure and connected vehicle sources of information.
+N201;Traffic Operations needs to be able to develop predicted queue formation using both infrastructure and connected vehicle sources of information.
+N202;Traffic Operations needs to be able to generate queue warning response strategies, including speed reduction, lane change, or diversion.
+N203;The Driver needs to be able to send queue information and response strategies to upstream vehicles.
+N204;The Driver needs to be able to receive queue information and queue response strategies based on information received from the infrastructure or other connected vehicles
+N216;Emergency Management needs to be able to collect information external to the incident scene to support staging of emergency responder personnel and their equipment.
+N217;Emergency Management needs to be able to provide situational awareness information to emergency responders about an incident to support decisions of how to stage the personnel and their equipment.
+N218;Emergency Management needs to be able to provide emergency responders with real-time navigation instructions that use all available data sources to quickly and efficiently route the responder.
+N219;Emergency Management needs to be able to maintain location and situational information about the emergency vehicles responding to or on the scene of an incident in order to provide a complete picture of the response and share the status with other responding vehicles en route.
+N223;Transit Operations needs to know the location and destination of the visually impaired traveler in order to identify the correct route and stop information to provide to the traveler via their personal device.
+N224;Transit Operations needs to be able to provide transit vehicle route and stop information to the traveler via their personal device.
+N225;Transit Operations needs to provide bus arrival information at the stop to support visually impaired travelers.
+N228;Commercial Vehicle Administration needs to be able to issue credentials to commercial vehicle carriers or Fleet and Freight Management in order to reduce an agency's and a carrier's paperwork burden.
+N229;Traffic Operations need to be able to inform the Driver of the recommended speed to travel, allowing the driver to make adjustments to maximize traffic throughput and reduce crashes.
+N232;Traffic Operations need to be able to inform the Driver of why the given speed is being recommended to increase their willingness to comply with the recommendations.
+N237;Traffic Operations need to be able to analyze performance of transportation system in order to develop strategies to improve the performance of the system.
+N238;Traffic Operations need to be able to disseminate recommended speed information to other centers.
+N239;Parking operators need to be able to monitor the number of available spaces in part and ride lots.
+N241;Parking operators need to be able to provide available space information to travelers requesting that information in order to assist their decision-making on where best to park and make use of transit alternatives.
+N242;Parking operators need to be able to provide available space information to transit systems operating near to those spaces.
+N243;Transit Operations needs to be able to determine when connections between transit routes are in jeopardy due to late arrival of one transfer vehicle in order to develop corrective actions to prevent missed connections.
+N245;Transit Operations needs to be able to adjust the real time schedule of a transit vehicle in order to protect the connections made from other transit vehicles to the subject vehicle at a station or stop.
+N246;Transit Travelers need to be able to provide a trip plan to Transit Operations and request they be provided with connection protection for the trip.
+N247;Transit Operations needs to be able to track a specific traveler?s trip through the system and provide connection protection actions to give the traveler the best chance of making their trip connections.
+N248;Transit Operations needs to be able to adjust the real time schedule of a transit vehicle in order to provide connection protection for a traveler?s trip.
+N249;Transit Operations needs to be able to provide a traveler with updates regarding their transit trip, including connection protection actions taken by Transit Operations.
+N262;Transit Operations needs to be able to take reservations for demand response trips that include the travelers? origin, destination, and departure time in order to do demand response scheduling.
+N263;Transit Operations needs to be able to schedule demand response transit vehicles based upon travelers trip requests.
+N264;Transit Operations needs to provide and update manifests to properly manage demand response transit vehicles based upon traveler requests.
+N265;Transit Operations needs to be able to monitor the real-time location of demand response transit vehicles.
+N266;Transit Operations need to have real time information about the road network in order to increase the effectiveness of operations for demand response transit.
+N275;Transit Operations needs to be able to accept stop requests from transit users at roadside stops or directly from their personal devices.
+N276;Transit Vehicles Operators need to be able to receive transit stop requests submitted from the roadside or from Transit Operations.
+N278;Commercial Vehicle Administration needs to exchange safety and credentials, fuel, and mileage tax information with other commercial vehicle administrations to support electronic credentialling.
+N279;Commercial Vehicle Administration needs to be able to exchange hazardous materials (HAZMAT) route restrictions with other jurisdictions and Fleet and Freight Management in order to maintain safe use of the roadways.
+N280;Traffic Operations and Traveler Information Providers need to be able to monitor the road network using information from connected vehicles in order to detect and verify incidents.
+N281;Traffic Operations need to be able to monitor the roadside equipment in order to detect faults in equipment or communications.
+N282;Traffic Operations need to be able to send network monitoring data to other centers in order to support traveler information.
+N283;Traffic Operations need to be able to monitor the road network using probe data from toll or transit systems.
+N284;System operators need to be able to store vehicle data, transit data, weather data, freight data and other transportation-related data to support traffic data analysis, transportation network performance monitoring, transportation planning, safety analyses and research.
+N285;System operators need to be able to process vehicle data sourced by themselves and other system operators to support performance monitoring, infrastructure conditions reporting, and environmental monitoring. This supports system operator reporting needs and provides the source data and metrics for government reports.
+N300;The Connected Vehicle needs to be able to send data to and receive data from other connected vehicles in order to provide safety warnings to the driver or control actions to the vehicle.
+N303;The Driver needs to be receive warnings from the vehicle in order to avoid a safety compromising situations with nearby remote vehicles.
+N305;The Driver needs the connected vehicle to be able to perform vehicle control actions toavoid safety compromising situations with nearby remote vehicles.
+N310;Traffic Operations needs to be able to determine if, based on the current environmental conditions, a vehicle is moving at a speed that would indicate an increased risk of not safely negotiating the curve.
+N311;Traffic Operations needs to be able to provide a warning, along with a recommended speed, to a vehicle that is moving at excessive speed around a curve.
+N312;The Driver needs to receive a warning when the Vehicle is moving at an excessive speed through a curve.
+N328;The Driver needs to receive warnings of nearby special vehicles (which can include emergency vehicles, maintenance vehicles, or oversize commercial vehicles) if those special vehicles are approaching the Driver?s Vehicle in order to allow the driver to take appropriate actions.
+N338;Traffic Operations needs to be able to determine if a vehicle exceeds the height or weight restrictions of a tunnel, bridge, overpass, or section of roadway in order to provide warning to the vehicle or driver.
+N340;Maintenance Operations needs to be able to provide height or weight restriction information on tunnels, bridge, overpass, or section of roadway to other centers to support their operations.
+N349;Traffic Operations need to be able to warn drivers of crossing closures or potential crash-imminent situations with a crossing or oncoming train in time for the driver to take appropriate action.
+N350;Traffic Operations need to be able to modify traffic signal timing in order to allow safe movement of vehicles away or towards a highway rail intersection when a train is approaching.
+N354;Traffic Operations need to be able to know when an approaching or crossing train(s) will cross or is crossing the at-grade crossing.
+N355;Traffic Operations need to be able to calculate an appropriate deceleration required to stop at the intersection given a collected set of data elements: road geometry, environmental road conditions, vehicle configuration data, and available telematics.
+N358;Traffic Operations needs to be able to send to Connected Vehicles intersection signal timing information in order for the vehicle to determine if it will safely cross the intersection given its current speed and location.
+N359;Traffic Operations needs to be able to warn vehicles if an intersection violation appears to be imminent.
+N360;Drivers need to be able receive warnings if, based on information received from the intersection, it looks like the vehicle will go through the intersection after the signal has turned red in order to reduce the occurrence of intersection violations.
+N361;Traffic Operations needs to be able to provide information about lane restrictions (such as HOV, eco-lanes, transit or emergency vehicle only) to connected vehicles.
+N362;Traffic Operations needs to be able to provide information about lane restrictions (such as HOV, eco-lanes, transit or emergency vehicle only) directly to drivers.
+N364;Traffic Operations or Maintenance Operations need to be able to provide to Connected Vehicles information about speed reductions, lane closures or roadway configuration changes.
+N365;Traffic Operations or Maintenance Operations need to be able to warn connected vehicles that they are driving above the posted reduced speed zone speed limit and/or the vehicle is impacted by changed roadway configurations in order for the connected vehicle to take appropriate action.
+N366;Drivers need to be able to receive warnings that the vehicle is approaching a reduced speed limit zone or that there are lane closures or roadway configuration changes in the upcoming roadway.
+N368;The Driver needs to be able to receive indications of road conditions measured by remote vehicles that represent a potential safety hazard for the vehicle.
+N371;Traffic Operations needs to be able to monitor traffic on a major road so that it can determine the gaps in the traffic in order to support stop gap assistance systems used by vehicles on minor roadways crossing the major roadway.
+N373;The Driver needs to be provided with an indication of when it is safe to enter the flow of traffic from a stop sign intersection.
+N402;Transit Vehicle Operators need to be aware of nearby pedestrians, including those who would like to board the transit vehicle in order to reduce the likelihood of pedestrian accidents with the transit vehicle.
+N403;Pedestrians need to know the proximity of a transit vehicle to a transit stop and whether the transit vehicle is the one they want to board (i.e., the correct route).
+N411;Transit vehicle operators need to receive a warning if surrounding vehicles are a collision threat as the transit vehicle prepares to leave a stop or station.
+N421;Transit Operations needs to be able to alert other vehicles that a transit vehicle is preparing to leave a station or stop in order to reduce risk of accidents with the departing transit vehicle.
+N435;Emergency Response Personnel need to be able to collect information regarding a crash directly from connected vehicles in order to respond safely and effectively to the vehicle crash.
+N438;Maintenance and Construction operations need to be able to provide warnings about hazards in the work zone to maintenance personnel, such as a vehicle moving in a manner that appears to create an unsafe condition.
+N439;Maintenance and Construction operations need to be able to monitor for hazards in the work zone.
+N442;Maintenance and construction operations need to be able to inform the driver of upcoming work zones, including reduced speeds, lanes affected, and delays.
+N447;System users need to be able to demonstrate that they are authorized to perform ITS functions without divulging their identity.
+N448;Credential managers and authorization system operators need to be able to verify the identity and justification for system users that request permissions.
+N455;The CCMS Operator needs to grant trust credentials to qualified end entities including mobile devices so that those devices may be considered trusted by other devices that receive trust credentials from the CCMS.
+N456;The CCMS Operator needs to be able to revoke the credentials it distributes, so that a misbehaving or malfunctioning device can be recognized as such.
+N457;The CCMS Operator needs to secure the exchange of trust credentials between itself and its intended user, so that no other party can intercept and use those credentials illegitimately.
+N458;The CCMS Operator needs its systems to be constructed in such a way that the cooperation of at least two parties within the CCMS' structure are required to link the identity of a user with a set of trust credentials, to protect user privacy.
+N459;The CCMS Operator needs its systems to be constructed in such a way that the cooperation of at least two parties within the CCMS' structure are required to associate multiple credentials that were distributed to a user, to protect user privacy.
+N460;The CCMS Operator needs to accept misbehavior reports from users, so that malfunctioning and misbehaving users may be identified and their privileges within the CVE revoked if necessary.
+N461;The CCMS Operator needs to provide a mechanism for a user without credentials to request credentials, so that the user may participate in the CVE.
+N462;Vehicle operators, field system operators, PID users, system operators and support system operators need to be able to authenticate messages received so that they can determine if the originator is a trusted source.
+N463;Vehicle operators, field system operators, PID users, system operators and support system operators need to be able to determine the privileges a message sender is entitled to so that they can determine if the originator's suggested action should be considered for action.
+N488;Vehicle operators need to be able to communicate with other users in such a way as to make it difficult to associate messages with one another, to help maintain user privacy.
+N491;Freight Distribution and Logistics Providers need to track and dispatch drayage operations in order to optimize movement of freight operations.
+N492;Freight Distribution and Logistics Providers need to interface with intermodal terminal, fleet and freight management and other freight dispatch systems to provide a seamless integration of freight movement.
+N498;Traffic Operations need to be able to collect vehicle emissions and environmental data from both connected vehicles as well as roadside sensors in order to support eco operation of traffic metering.
+N499;Traffic Operations need to be able to use collected vehicle emissions and environmental data to regulate the flow of traffic on ramps, interchanges, and the mainline.
+N500;Traffic Operations need to be able to collect and process current and historical traffic and environmental data from multiple sources in order to determine speed recommendations based on traffic conditions and weather and environmental information.
+N506;Traffic Operations need to be able to monitor operational conditions on the roadway including vehicle presence and weather conditions, in order to determine lighting strategies to implement.
+N507;Traffic Operations need to be able to monitor and control roadway lighting systems in order to adjust lighting levels based on operational conditions.
+N508;Maintenance personnel and system operators need to to be able to track and manage the configuration of infrastructure field equipment.
+N509;System operators and maintenance personnel need to be able to detect, isolate and correct infrastructure field equipment service problems.
+N510;System operators need to be able to monitor the performance of equipment providing ITS services.
+N511;The Connected Vehicle needs to be able to move into a platoon and inform the vehicle driver of how, when, and where to safely join a platoon.
+N512;The Connected Vehicle needs to be able to operate in a platoon, including coordination of speed and gap policy with other vehicles in the platoon.
+N513;The Connected Vehicle needs to be able to leave a platoon and return manual throttle control to the driver so they can change lanes safely.
+N514;Traffic Operations needs to be able to needs to disseminate speed and gap recommendations and other information to connected vehicles in a platoon on roads instrumented to allow infrastructure support of platooning.
+N515;The Connected Vehicle needs to be able to implement cruise controls strategies in order to provide advanced cruise control in normal vehicle operation.
+N516;The Connected Vehicle Driver needs to be able to engage and disengage advanced cruise control and adjust control strategies.
+N517;Traffic Operations needs to be able to warn potential violators of weight- or size- restricted roadways (e.g. roads or bridges, overpasses) in time for the driver to take appropriate action.
+N519;The vehicle driver needs to be able to receive customized real-time driving advice so that they can adjust their driving behavior to save fuel and reduce emissions.
+N520;The connected vehicle needs to be able to automatically perform actions to implement eco-driving strategies.
+N524;Transit Operations needs to provide approaching Transit Vehicle location and heading to the roadside signal controller so that the controller can modify signal timing in favor of the transit vehicle.
+N525;Transit Operations needs to provide transit vehicle data to Traffic Operations including loading information and schedule performance in order to support decision making regarding whether to give the transit vehicle priority at the intersection.
+N528;Fleet and Freight Management need to be able verify the contents and accuracy of the records maintained by Commercial Vehicle Administration concerning its operations.
+N531;System operators, vehicle operators, support system operators, PID users need to be able to identify the cyber addresses and services provided of other users. This is essentially a list of ?what? services are supported, ?who? provides each service and ?where? to go to obtain these services.
+N545;System operators, vehicle operators, support system operators, PID users, maintenance personnel need their devices to operate on a common time base. Coordination of time between the internal systems that comprise the connected vehicle environment prevents internal synchronization errors and enables time sensitive interactions between all users.
+N552;Drivers need in-vehicle access to the information available on static signs (e.g., stop, curve warning, guide signs, service signs, and directional signs) and dynamic information (e.g., current signal states including highway intersection and highway-rail intersection status and local conditions warnings identified by local environmental sensors) in order to increase awareness of situations while driving.
+N553;Drivers need a visual display of static sign information or dynamic roadway condition information to see the contents of the road signage during times of reduced visibility.
+N554;System operators, vehicle operators and PID users need map data that is accurate and consistent between one another. This includes roadway maps and geometry, intersection maps and gemoetry and parking facility maps and geometry.
+N555;Mapping operators need real-world observations of roadway geometry, intersection geometry and parking geometry to feed their map update processes.
+N556;Electronic Toll Collection needs to allow toll payment without the vehicle stopping at a toll plaza.
+N562;Road Use Charging Operators need to be able to implement a road use charging scheme which charges fees to roadway vehicle owners for using specific roadways.
+N564;System operators, vehicle operators, support system operators, PID users need to be able communicate with other users without divulging their identity, location or other Personally Identifiable Information (PII).
+N565;Traffic Operations need to be able to use both information from connected vehicles as well as infrastructure measurement of non-equipped vehicles to improve the operations of traffic signal control systems.
+N566;Traffic Operations need to be able to dynamically warn drivers approaching hazards on a roadway in order to increase the safety of a roadway by reducing the occurrence of incidents.
+N567;Traffic operations needs to be able to change the lane configuration including lane destination and use of shoulder lanes on the roadway according to traffic demand in order to actively manage the traffic
+N568;Traffic Operations needs to be able to manage lane usage on highways and arterials including approaches to border crossings, multimodal crossings, or intermodal terminals.
+N569;Traffic Operations needs to be able to reconfigure intersections and interchanges and manage right-of-way dynamically including merges in order to increase roadway throughput during times of peak traffic or incidents.
+N570;Traffic operations needs to be able to prohibit or restrict of types of vehicles from using particular lanes in order to manage roadway throughput during times of peak traffic or incidents.
+N571;Traffic Operations need to be able to designate lanes for use by special vehicles only, such as buses, high occupancy vehicles (HOVs), vehicles attending a special event, etc, in order to increase roadway throughput during times of peak traffic, incidents or special events.
+N572;Traffic Operations need to be able to receive and process data from multiple sources in order to generate warning for drivers based on the collected traffic and road conditions.
+N573;Traffic Operations needs to be able to close roadways to vehicular traffic and notify drivers when driving conditions are unsafe, maintenance must be performed or other scenarios where access to the roadway must be prohibited.
+N574;Traffic Operations need to be able to visually verify the safe activation of the closure system and driver information systems in order to provide closure information to motorists in the vicinity of the closure.
+N575;Traffic Operations need to be able to allow the gates to be remotely controlled from a central location or from a vehicle at the gate/barrier location, in order to improve system efficiency and reducing personnel exposure to unsafe conditions during severe weather and other situations where roads must be closed.
+N576;Traffic Operations need to be able to receive road condition data from multiple sources in order to generate roadways closure to vehicular traffic when driving conditions are unsafe, maintenance must be performed, or other scenarios where access to the roadway must be prohibited.
+N577;Traffic Operations need to be able to manage traffic control equipment at drawbridges at rivers, canals and other multimodal crossings.
+N578;Traffic Operations need to be able to issue drawbridge crossing status information for drivers.
+N579;Traffic Operations need to be able to monitor vehicle speeds to determine when vehicle speed is excessive.
+N580;Traffic Operations need to be able to warn drivers when their speed is excessive.
+N581;Traffic Operations need to be able to notify an enforcement agency that vehicles are traveling at excessive speed and to be able to request that the enforcement agency respond to the excessive speed.
+N582;Traffic Operations need to be able to manage reversible lane facilities in order to allow lanes to be signed for operation in different directions at different times of the day.
+N583;Traffic Operations need to be able to ensure safe operation of reversible lanes through wrong-way vehicle detection and other special surveillance capabilities in order to mitigate safety hazards associated with reversible lanes.
+N584;Traffic Operations need to be able to control the field equipment, physical lane access controls, and associated control electronics that manage and control these special lanes.
+N585;Traffic Operations need to be able to provide current reversible lane status information to drivers.
+N586;Traffic Operations need to be able to receive from Rail Operations train schedules, maintenance schedules, and any other forecast events that will result in highway-rail intersection (HRI) closures, in order to develop forecasts of HRI closure times and durations that may be used in advanced traffic control strategies or to enhance the quality of traveler information.
+N587;Traffic Operations need to be able to alert and/or warn drivers who are approaching an at-grade railroad crossing if they are on a crash-imminent trajectory to collide with a crossing or approaching train.  This enhanced information may be conveyed to the driver prior to, or in context with, warning system activation
+N588;Traffic Operations need to be able to have detection capabilities that enable it to detect an entrapped or otherwise immobilized vehicle within the HRI and provide an immediate notification to highway and railroad officials.
+N589;Maintenance and construction operations need to be able to track the location of maintenance and construction vehicles and other equipment in order to ascertain where their assets are.
+N590;Maintenance and construction operations need to be able to manage vehicle maintenance scheduling for both routine and corrective maintenance activities on vehicles and other maintenance and construction equipment.
+N591;Maintenance and construction operations need to be able to automatically collect diagnostics data from maintenance and construction vehicles in order to use it to schedule and manage vehicle and equipment maintenance.
+N592;Maintenance and construction operations need to be able to automatically treat a roadway section based on environmental or atmospheric conditions.
+N594;Maintenance and construction operations need to be able to warn drivers when a roadway treatment system is activated.
+N595;Maintenance and construction operations need to be able to schedule maintenance and construction on a roadway system or right-of-way.
+N596;Maintenance and construction operations need to be able to collect environmental conditions information from various weather sources in order to aid in scheduling maintenance and construction activities.
+N597;Maintenance and construction operations need to be able to manage work zones and control traffic in areas of the roadway where maintenance, construction, and utility work activities are underway.
+N598;Maintenance and construction operations need to be able to coordinate work zone information with other agencies (e.g., traveler information, traffic operations, and other maintenance and construction centers).
+N600;Maintenance and construction operations need to be able to provide control of field equipment in all maintenance and construction areas, including fixed, portable, and truck-mounted devices supporting both stationary and mobile work zones.
+N602;Maintenance and construction operations need to be able to disseminate maintenance and construction activity to transportation agencies that can utilize it as part of their operations.
+N604;Maintenance and construction operations need to be able to monitor the condition of transportation-related infrastructure using both fixed and vehicle-based infrastructure monitoring sensors.
+N606;Emergency Management needs to provide basic public safety call-taking and dispatch of emergency vehicles in order to provide safe and rapid deployment of appropriate resources to an emergency.
+N607;Emergency Management needs to coordinate with other emergency management operations in order to support emergency notification between agencies.
+N612;Roadway Service Patrol Operations need to be able to monitor roads and aid motorists, offering rapid response to minor incidents (flat tire, accidents, out of gas) in order to minimize disruption to the traffic stream.
+N614;Roadway Service Patrol Operations need to be able to monitor service patrol vehicle locations and dispatch service patrol vehicles to identified incident locations.
+N615;Roadway Service Patrol Operations need to be able to share incident information collected by the service patrol with traffic, maintenance and construction, and traveler information systems.
+N616;Traffic Operations and Emergency Management need to be able to monitor transportation infrastructure (e.g., bridges, tunnels and management centers) for potential threats in order to control access, preclude an incident, and mitigate the impact of an incident if it occurs.
+N619;Traffic Operations and Emergency Management need to be able to notify agencies if a threat is detected.
+N620;Traffic Operations and Emergency Management need to be able to collect advisories from other agencies related to detected threats.
+N621;Traffic Operations in response to threats needs to be able to activate the barrier and/or safeguard systems in order to deter an incident, control access to an area or mitigate the impact of an incident.
+N622;Emergency Management needs to be able to alert the public in emergency situations such as child abductions, severe weather events, civil emergencies, and other situations that pose a threat to life and property, using ITS technologies such as dynamic message signs, highway advisory radios, in-vehicle displays, transit displays, 511 traveler information systems, and traveler information web sites.
+N623;Emergency Management needs to be able to verify the reported emergency situation in order to activate the alert system.
+N625;Emergency Management needs to be able to broadcast emergency information to traffic agencies, transit agencies, information service providers, toll operators, and others that operate ITS systems.
+N626;Emergency Management needs to be able to alert all relevant agencies of detected emergencies.
+N627;Emergency Management needs to be able to collect potential threats, alerts, and advisories from various ITS systems to identify emergencies.
+N628;Emergency Management needs to support coordination of emergency response plans issued by various agencies in order plan for regional response to disasters.
+N629;Emergency Management needs to be able to track and coordinate the transportation professionals, equipment, and materials that constitute the disaster response in order to respond to and recover from disasters.
+N631;Emergency Management needs to be able to provide to other regional centers information about the transportation system in the vicinity of the disaster.
+N633;Emergency Management needs to support integration between transportation systems and the public safety, emergency management, public health, and other allied organizations that form the overall disaster response.
+N634;Emergency Management needs to support evacuation of the general public from disaster area.
+N635;Emergency Management needs to manage subsequent reentry of the general public to the disaster area.
+N636;Emergency Management needs to coordinate evacuation plans among the federal, state, and local transportation, emergency, and law enforcement agencies that may be involved in a large-scale evacuation.
+N637;Emergency Management needs to share evacuation information with traffic management agencies in order to implement special traffic control strategies to control evacuation traffic.
+N638;Emergency Management needs to share evacuation information with transit agencies in order to remove people from an evacuated area while making efficient use of limited capacity.
+N639;Traffic Operations need to be able to monitor the road network using infrastructure devices in order to detect and verify incidents and support implementation of traffic operational strategies.
+N640;Traffic Operations need to be able to monitor the infrastructure devices used for road network monitoring in order to detect faults in equipment or communications.
+N641;Traffic Operations need to be able to send network monitoring data to other centers in order to support traveler information.
+N642;Traffic Operations need to be able to remotely control traffic signals at intersections under their jurisdiction
+N643;Traffic Operations need to be able to manage and implement control plans in order to coordinate signalized intersections.
+N644;Traffic Operations need to be able to monitor and control pedestrian crossing aspects of traffic signals in order to facilitate safe pedestrian crossings at the intersection.
+N645;Traffic Operations need to monitor the status of traffic signal control equipment.
+N646;Traffic Operations need to be able to monitor and control traffic metering equipment in order to regulate the flow of traffic on ramps, interchanges, and the mainline.
+N647;Traffic Operations need to monitor the status of traffic metering equipment.
+N648;Traffic Operations need to be able to implement control strategies utilizing the traffic metering equipment on ramps, interchanges, and on the mainline.
+N649;Traffic Operations need to be able to provide traffic and incident information to drivers using roadside devices such as dynamic message signs and highway advisory radio.
+N650;Traffic Operations need to be able to monitor roadside devices used to provide traffic and traveler information to drivers.
+N651;Traffic Operations need to be able to provide traffic and incident information, including images to the media.
+N652;Traffic Operations need to be able to provide traffic and incident information, including images to traveler information, transit, maintenance and emergency centers.
+N653;Traffic Operations need to exchange traffic and incident data with other Traffic Management Centers in order to support regional coordination spanning jurisdictional boundaries.
+N654;Traffic Operations need to exchange traffic control data with other traffic management centers to support inter-jurisdictional, real-time coordinated traffic signal control systems and coordination between freeway operations and traffic signal control within a corridor.
+N655;Traffic Operations need to detect and verify incidents on roadways using CCTV and field sensors.
+N656;Traffic Operations need to share incident information with other ITS centers in order to coordinate incident response.
+N657;Traffic Operations need to obtain incident information from other ITS centers in order to coordinate incident response
+N658;Emergency Operations need to be able to dispatch emergency assets to a traffic incident.
+N659;Traffic Operations need to coordinate requests for resources with emergency and maintenance centers in order to support cleanup after the incident.
+N660;Traffic Operations need to be able to use current and forecast road and traffic conditions to develop traffic management plans.
+N661;Traffic Operations need to be able to develop operational decisions based upon analysis of current and forecast road and traffic conditions.
+N662;Traffic Operations need to be able to collect information describing multi-source, real-time data (both infrastructure and vehicle based) on arterials, freeways, and transit systems to develop operational decisions that can be applied to corridors or to the region as a whole.
+N663;Traffic Operations needs to be able to collect information from transit, parking, and toll operations in order to support development of demand management strategies.
+N664;Traffic Operations needs to be able to implement demand management strategies in order to correct network imbalances and effectively manage available capacity.
+N665;Electronic Toll System Operators need to allow users to set up and maintain a user account.
+N666;Electronic Toll System Operators need to be able to detect, process, and notify users of toll violations in order to prevent loss of revenue due to toll violations.
+N667;Electronic Toll System Operators need to be able to support interagency coordination and financial clearinghouse operations so that multiple toll agencies are able to operate with the same type of user devices.
+N668;Road Use Charging Operators need to be able to allow vehicles (either connected or regular) to pay road use charges.
+N669;Road Use Charging Operators need to be able to allow users to set up and maintain a user account.
+N670;Traffic Operations need to be able to warn drivers of crossing closures or potential crash-imminent situations with a crossing or oncoming train in time for the driver to take appropriate action.
+N671;Traffic Operations need to be able to modify traffic signal timing in order to allow safe movement of vehicles away or towards a highway rail intersection when a train is approaching.
+N672;Traveler Information needs to be able to collect timely, accurate, and reliable traffic, transit, and other road conditions data from multiple sources in order to inform travelers of the latest conditions affecting their travel.
+N673;Travelers need access to timely, accurate, and reliable traffic, transit, and other travel conditions in order to make informed decisions about their travel.
+N674;Traveler Information needs to be able to inform as much of the traveling public as possible using any available means to increase mobility and safety through better information.
+N675;Traveler Information needs to be able to collect timely, accurate, and reliable traffic, transit, and other road conditions data from multiple sources in order to inform travelers of the latest conditions affecting their travel.
+N676;Travelers, including drivers or passengers, need access to timely, accurate, and reliable traffic, transit, and other travel conditions in order to make informed decisions about their travel.
+N677;Traveler Information needs to be able to inform as much of the traveling public as possible using any available means to increase mobility and safety through better information.
+N678;Travelers, including drivers or passengers, need to be able to request specific and customized information concerning current and future travel conditions in order to make decisions about their own travel.
+N679;Traveler Information needs access to timely, accurate, and reliable traffic, transit, and other road conditions data from multiple sources in order to support accurate and appropriate routes for travelers.
+N680;Travelers need guidance to their destination that is timely, accurate, and reliable, and responsive to changes in travel conditions in order for them to arrive safely in as little time as possible.
+N683;Traveler Information needs access to timely, accurate, and reliable traffic, transit, and other road conditions data from multiple sources in order to generate accurate and appropriate routes for travelers.
+N684;Travelers need guidance to their destination that is timely, accurate, and reliable in order for them to arrive safely in as little time as possible.
+N685;Travelers need to quickly locate nearby support facilities such as car service/repair stations, hospitals or police stations, etc. in order to feel safer and more confident when traveling to new areas.
+N687;Travelers need to be able to request and reserve services in advance to reduce the amount of time waiting and increase their mobility.
+N688;Traveler Information needs to support secure payment transactions in order to provide complete and trusted services for their travelers.
+N689;Drivers need an audible alternative presentation of static sign information or dynamic roadway condition information to see the contents of the road signage during times of reduced visibility to increase their safety on the road.
+N692;Maintenance and construction operations needs to process collected environmental information to issue road weather alerts, warnings and advisories derived from roadway environmental sensor data, vehicle on-board sensor data and weather service operations to share the road weather information with emergency management operations, transit management operations, rail operations, weather service operations and other maintenance and construction operations.
+N696;Traffic operations or maintenance and construction operations need be able to collect road conditions and weather data from environmental sensors on or in the vicinity of the roadway.
+N697;Traffic operations need to be able to collect road conditions and weather data from vehicle on-board sensors.
+N698;Maintenance and construction operations need to be able to process collected environmental information to issue location specific road weather warnings derived from roadway environmental sensor data, vehicle on-board sensor data and weather service operations to make decisions regarding efficient deployment of road maintenance resources based on historical, current and forecasted environmental conditions.
+N699;Transportation information operations need to be able to disseminate road weather advisories and warnings at specific points on the downstream roadway to connected vehicles via in vehicle signage.
+N700;Traffic management operations need to be able to control environmental sensors and aggregate the environmental information.
+N701;Transportation information operations need to be able to disseminate road weather advisories and warnings at specific points on the downstream roadway to non-equipped vehicles via roadway signage.
+N702;Traffic management operations need to be able to monitor traffic and environmental information, calculate appropriate variable speed limits and provide this information to the connected vehicle or on roadway signage.
+N705;Traveler Information needs travel parameters from a traveler in order to develop dynamic routes.
+N710;Parking operators need to be able to collect information from Infrastructure-based detectors and/or connected vehicles in order to monitor parking lot ingress and egress, and availability in lots, garages, and other parking areas and facilities.
+N711;Parking operators need to be able to determine availability of parking spaces.
+N712;Parking operators need to be able to share the collected parking information with local drivers and Traveler Information for broader distribution.
+N713;Transit operations need to be able to provide transit information to nearby parking operations.
+N714;Parking operators need to be able to provide available space information to traveler information providers.
+N715;Parking operators need to be able to support electronic collection of parking fees from in-vehicle equipment, contact or proximity cards, or any smart payment device.
+N716;Parking operators need to be able to set up and manage electronic user accounts for customers.
+N717;Parking operators need to be able to provide notification to an enforcement agency of a parking payment violation.
+N718;Traffic Operations need to be able to disseminate the current lane configurations to drivers and other centers.
+N720;Fleet and Freight Management needs to know the location and status of its vehicles, drivers, and loads in order to efficiently manage and maintain its fleet.
+N721;Fleet and Freight Management needs access to accurate and current information about traffic road conditions in order to make informed decisions regarding its fleet.
+N722;Fleet and Freight Management needs to provide accurate and appropriate routes for its drivers and vehicles that include such factors as size and weight restrictions, times of day, and type of load, e.g. Hazmat loads.
+N724;Commercial Vehicle Administration needs to be able to determine the weight and other characteristics of commercial vehicles operating on its roadways as part of the clearance process.
+N725;Commercial Vehicle Administration needs to collect and maintain electronic records of commercial vehicles and drivers operating on its roadways in order to support efficient clearance operations.
+N726;Commercial Vehicle Administration needs to be able to coordinate electronic credentials and safety records with other commercial vehicle administration agencies concerning commercial vehicles and drivers operating on its roadways in order to support efficient clearance operations.
+N727;Commercial Vehicle Administration needs to be able to perform electronic clearance of commercial vehicle credentials and safety records of a commercial vehicle and its driver in order to maintain the smooth flow of goods through its roadways.
+N728;Commercial Vehicle Administration needs to be able to inform the appropriate parties of issues dealing with the clearance of a commercial vehicle or its driver in order to maintain the smooth flow of goods through its roadways.
+N729;Commercial Vehicle Administration and Border Administration need to collect transportation related data, including border crossing data to support planning and research activities that span land border crossings.
+N730;Commercial Vehicle Administration and Border Administration need to be able to verify that vehicles, freight equipment, cargo, and drivers coming into the country are admissible and comply with federal laws and regulations.
+N731;Commercial Vehicle Administration and Border Administration need to exchange commercial vehicle records with other agencies and stakeholders along a border including credentials, status of the credentials, and records of fuel tax payments.
+N732;Commercial Vehicle Administration and Border Administration need to provide electronic communications with commercial vehicles to support security inspections and weigh-in-motion detection.
+N733;Regional parking management needs to coordinate activities with other parking operations, including sharing of availability, hours, and other information to facilitate efficient regional transportation strategies.
+N734;Commercial Vehicle Administration needs to be able to manage safety inspections for commercial vehicles using electronic communications and automated sensors in order to provide safer highways.
+N735;Commercial Vehicle Administration needs to exchange safety inspection reports, accident data, citations, credentials, and other data with Fleet and Freight Management.
+N737;Commercial Vehicle Management needs to issue safety inspection reports for trucks and share them with the field, the trucks, the carrier, and other commercial vehicle management entities in order to promote safe movement of goods.
+N738;Commercial Vehicle Management needs to know when a certain area has been identified as an area of focus or trigger areas by enforcement in order to inform the appropriate systems and stakeholders.
+N740;Commercial Vehicle Management needs to be able to securely exchange information on violators with the appropriate authorities and affected fleet managers.
+N742;Transit Operations needs to be able to monitor the location of transit vehicles in order to improve decision making by transit operators and provide more accurate information to travelers .
+N743;Transit Operations needs to be able to determine whether each transit vehicle is adhering to its schedule.
+N744;Transit Operations needs to be able to send transit vehicle location and schedule adherence data to other centers in order to support traveler information and traffic operations.
+N745;Transit Operations needs to be able to create and update schedules for fixed route or flexible route transit routes in order to plan transit operations.
+N746;Transit Operations needs to be able to disseminate transit schedules for fixed route or flexible route transit routes to traveler information centers.
+N747;Transit Operations needs to be able to dispatch transit vehicles for fixed route or flexible route runs.
+N748;Transit Operations need to be able to schedule blocks (vehicle assignments) and runs (operator assignments) for fixed route or flexible route transit operations.
+N749;Transit Operations need to be able to monitor transit vehicle schedule adherence in order to manage fixed route or flexible route transit operations.
+N750;Transit Operations need to have real time information about the road network in order to increase the effectiveness of operations for fixed route or flexible route transit.
+N751;Transit Operations needs to be able to collect transit fares on-board transit vehicles using electronic payment methods in order to improve transit operation.
+N752;Transit Operations needs to be able to collect transit fares at transit stations using electronic payment methods in or der to support bus rapid transit or train systems.
+N753;Transit Operations needs to be able to download transit fare collection information from transit vehicles or transit fare gates at stations in order to manage the fare collection operations.
+N754;Travelers need to be able to add value to payment instruments in order to use them as part of fare collection systems.
+N755;Transit Operations needs to be able to support transit fare reconciliation with other transit agencies participating in a regional fare collection system.
+N756;Transit Operations needs to be able to monitor conditions on a transit vehicle in order to provide a secure environment for travelers.
+N757;Transit Operations needs to be able to monitor transit stops and transit stations in order to provide a secure environment for travelers.
+N758;Transit Operations needs to be able to monitor transit secure areas such as bus or rail yards and transit infrastructure such as tracks and tunnels in order to provide security for transit assets.
+N759;Transit Operations needs to be able to authenticate operators of transit vehicles and perform remote disabling of vehicles if necessary in order to ensure secure operation of the vehicles.
+N760;Transit Operations needs to be able to alert emergency services to incidents on vehicles, at stations/stops, or other monitored assets.
+N761;Transit Operations needs to be able to inform traveler information systems or the media regarding transit related incidents in order to keep the traveling public informed of the impacts these incidents may have on their trips.
+N762;Transit Operations needs to able to remotely monitor transit vehicle operating conditions in order to determine if maintenance of the vehicle is needed.
+N763;Transit Operations needs to be able to perform maintenance scheduling of transit vehicles including real time requests for actions by the vehicle operator.
+N764;Transit Operations needs to be able to assign specific vehicles to blocks in order to perform vehicle allocation.
+N765;Transit Operations needs to be able to count the passengers entering or exiting a transit vehicle in order to support efficient operations.
+N766;Transit Operations needs to be able to provide static and real time transit information to traveler information systems and the media in order to increase travelers? ability to plan and manage their trips.
+N767;Transit Operations needs to be able to provide static and real time transit information directly to travelers either pretrip or enroute in order to support traveler trip decisions.
+N768;Transit Operations needs to be able to share static and real time transit information with other transit operations in order to facilitate multisystem trip planning.
+N769;Traffic Operations needs to be able to notify enforcement of vehicle violations in the bus lanes.
+N770;Transit Operations needs to be able to coordinate service information with other Transit Operations in order to improve operations.
+N771;Transit Operations needs to be able to coordinate with other transportation modes (e.g. ferry operations, airports) in order to improve service connections with these other modes.
+N772;Transit Operations needs to coordinate with other centers (e.g. traffic, parking, and event promoters) in order to share system information.
+N774;The toll operations need to be able to set the road pricing based on the time of the day, traffic condition and vehicle characteristics (vehicle size, weight, axle count, etc.) and stored toll prices.
+N775;Traffic Operations need to be able to manage and implement control plans in order to coordinate signalized intersections.
+N776;Traffic Operations need to monitor the status of traffic signal control equipment.
+N777;Maintenance and construction vehicles need to be able to collect vehicle diagnostics and operating status data from the maintenance vehicle and send it to maintenance and construction operations.
+N778;Maintenance and construction operations need to coordinate maintenance and construction activities with traffic and other management agencies.
+N779;Maintenance and construction operations need to be able to monitor the status of ITS field equipment and coordinate with Traffic Operations on the maintenance of the equipment.
+N782;The Connected Vehicle needs to be able to perform lateral and longitudinal control actions in order to operate the vehicle without direct driver intervention either independently or as part of a platoon.
+N783;The Connected Vehicle needs to be able to perform actions that transition the vehicle from driver operation to autonomous operation and back to driver operation when the automated portion of the drive is completed.
+N784;Maintenance and Construction operations need to be able to monitor operational status of work zone safety devices.
+N785;Maintenance and construction operations need to be able to monitor operational status of the environmental sensors that detect adverse conditions.
+N786;Commercial Vehicle Administration agencies need to work in conjunction with enforcement agencies to define geographic areas for targeted safety and credentials screening and share that information with commercial fleets and their drivers in order to facilitate smoother and safer operations.
+N787;Commercial Vehicle Administration needs to have a safety screening capability that acquires safety inspection data from commercial vehicles using electronic communications with fleets and with vehicles along the roadside.
+N788;Commercial Vehicle Administration needs to have a vehicle credentialing capability that acquires electronic clearance information (including the commercial vehicle and clearance status) from vehicle as it passes the inspection site and allows exchange of relevant information with center systems.
+N789;Commercial Vehicle Administration needs to measure the weight or dimensions of commercial vehicles while moving at mainline speeds in order to monitor and enforce weight or dimension restrictions.
+N790;Emergency Management and Traveler Information need to be able to provide general public real-time disaster and evacuation information using ITS traveler information systems.
+N794;Fleet and Freight Management needs to monitor the status of its freight, including the drivers, vehicles, and the cargo in order to determine if an issue involving hazardous materials occurs and where it is.
+N795;Fleet and Freight Management needs to provide the status, location, and specific contents of loads that have hazardous materials (HAZMAT) or dangerous goods to the appropriate emergency management when they are involved in an incident in order to ensure the safety of the public and the responders.
+N796;Emergency Management needs to collect information from Fleet and Freight Management or directly from equipped vehicles in order determine the status, location, and specific contents of loads with hazardous materials (HAZMAT) when they are involved in an incident in order to protect the public's safety and ensure the safety of its responders.
+N797;Commercial Vehicle Administration needs to be able to detect the presence of hazardous materials (HAZMAT) as commercial vehicles pass their roadside facilities in order to quickly determine that the commercial vehicle is authorized to carry the HAZMAT load.
+N798;Commercial Vehicle Administration needs to be able to read vehicle and driver identification information in order to determine if based on vehicle credentials, the vehicle is authorized to transport the detected hazardous materials (HAZMAT).
+N799;Commercial Vehicle Administration needs to warn the appropriate emergency management when it has detected the presence of an unauthorized hazardous materials (HAZMAT) shipment as commercial vehicles pass their roadside facilities in order to speed up the emergency response.
+N800;Fleet and Freight Management need to be able to determine when an unauthorized driver attempts to operate one of its commercial vehicles in order to be able to prevent theft or harm to its property and personnel.
+N801;Fleet and Freight Management need to be able to warn the appropriate emergency management when an unauthorized driver attempts to operate one of its commercial vehicles in order to be able to prevent theft or harm to its property and personnel.
+N802;Fleet and Freight Management needs to be able to track the location and monitor the status of its freight being carried in order to provide efficient movement of goods for its clients.
+N803;Fleet and Freight Management needs to be able to alert the appropriate emergency management center if a breach or problem is detected with the container or its contents.
+N805;Commercial Vehicle Service Providers need to collect and manage driver log information in order provide the information to the appropriate regulators and to make Fleet and Freight Management aware that their vehicles are being operated safely.
+N806;Commercial Vehicle Administration needs to securely access driver log information in order to support roadside inspections to ensure vehicles are being operated safely.
+N807;Fleet and Freight Management need access to electronic commercial vehicle permits in order to efficiently move goods to their destinations using electronic permits.
+N808;Commercial Vehicle Administration needs to monitor and collect on-board commercial vehicle data including mass and other declarations to support the provision of commercial vehicle permits in order to ensure vehicles are being operated safely on its roadways.
+N809;Fleet and Freight Management need to provide electronic readings of its vehicles weight, including data about the configuration of the vehicle and its trailers to a Commercial Vehicle Service Provider in order to facilitate the provision of electronic permits.
+N810;Commercial Vehicle Administration needs to monitor the weight of commercial vehicles, including data about the configuration of the vehicle and its trailers in order to support electronic permitting.
+N811;Fleet and Freight Management needs to allow Commercial Vehicle Service Providers to electronically monitor its vehicles' speed in order to efficiently move goods to their destinations using electronic permits.
+N812;Commercial Vehicle Administration needs to collect and monitor data about the speed of commercial vehicles, including data about the configuration of the vehicle and its trailers in order to ensure vehicles are being operated safely on its roadways and support electronic permitting.
+N814;Emergency Management needs to provide remote monitoring and control of incident scene safety devices that detect vehicle intrusions in designated areas at the incident scene.
+N815;Commercial Vehicle Administration needs to be able to request a commercial vehicle to pull in for inspection if the vehicle is determined to be carrying a hazmat load that it is not properly permitted to carry.
+N816;Fleet and Freight Management need to be able to remotely disable a commercial vehicle when an unauthorized driver is detected.
+N817;Fleet and Freight Management needs to be able to provide the status of a freight shipment to customers, terminals, and other distribution and logistics systems.
+N818;Drivers need their vehicle to monitor the vehicle systems and the traffic in the vicinity of the vehicle in order determine if there are situations that require intervention by the driver or on-board safety system.
+N819;Drivers need their vehicle to provide safety warnings to them when a safety compromising situation is detected by on board systems.
+N820;Drivers need their vehicles to provide the vehicle control actions ranging from basic safety system intervention to prevent crashes leading up to complete operation of the vehicle depending upon the level of automation.
+N821;System operators need to be able to store data for long term access by themselves and other operators.
+N822;System operators need to be able to query for and receive archive data products containing freeway data, tolling data, arterial data, parking data, transit and ridesharing data, incident management data, safety-related data, CVO data, environmental and weather data, vehicle and passenger data and intermodal operations data.
+N823;System operators need to be able to manage data processing with regard to data archive functions, including data aggregation, data tagging (processed, edited, raw, transformed, etc.), data storage timing and longevity, data quality analysis, data formatting and metadata assignments.
+N826;System operators need to be able to monitor the physical security and cybersecurity of equipment providing ITS services.
+N828;"Credential managers need to be able to issue credentials to system users; these credentials must in turn serve system user needs."
+N829;System Operators, Vehicle Operators, and PID Operators need to be able to request and receive information without establishing formal relationships with data providers.
+N830;System Operators need to be able to provide data to a geographically selected area.
+N831;Data Distribution Operators need to be able to exchange data with other data distrution systems.
+N832;Data Distribution Operators need to be able to establish and maintain data processing algorithms, rules and related metadata, including all those processes related to Validation, Integration, Sanitization, and Aggregation.
+N835;Mapping operators need to be able to exchange mapping information (map data and update coordination) with other mapping operators.
+N836;Emissions Management needs to be able to measure wide area pollution data in order to monitor wide area pollution levels.
+N837;Emissions Management needs to be able to measure vehicle emissions data collected from individual vehicles at the roadside in order to identify high emitting vehicles.
+N838;Emissions Management needs to be able to provide wide area pollution information to the media, traveler information centers, and other transportation centers in order to support traveler information and transportation operations.
+N839;Emissions Management needs to be able to send information about vehicles with excessive emissions to the appropriate Department of Motor Vehicles (DMV) or law enforcement.
+N841;Traffic Operations need to be able to operate High Occupancy Vehicle (HOV) lanes on highways.
+N842;Traffic Operations need to be able to measure the number of passengers in a vehicle in order to determine if the vehicles are violating the HOV lane usage requirements.
+N843;Traffic Operations need to be able to operate High Occupancy Toll (HOT) lanes on highways.
+N844;Travelers need to be able to sign up for an HOT account and use it to pay for HOT services.
+N845;Transportation agencies need to gather data from vehicles or infrastructure to support environmental monitoring.
+N846;Fleet and Freight Management needs to collect data from private, commercial, specialty and public fleet vehicles to determine the impact of weather on its operations.
+N847;Fleet and Freight Management needs to provide commercial vehicles and their drivers with road weather warnings and advisories.
+N849;Fleet and Freight Management needs to monitor and record the mileage, repairs, and safety violations of its vehicles in order to efficiently manage its fleet.
+N850;Fleet and Freight Management needs to make its fleet vehicle repair status available to the appropriate commercial vehicle administration agencies in order to update their credentials.
+N851;Emission Management needs to be able to provide summary emission information or warning to drivers.
+N852;Traffic operations need to be able to determine whether an eco-lane should be created or decommissioned along a roadway.
+N853;Traffic Operations need to be able to disseminate traffic metering timing plan to connected vehicles.
+N854;Traffic operations and maintenance and construction operations need to share collected environmental data with each other.
+N855;Traffic operations and Maintenance and construction need to be able to receive environmental data from Weather operations.
+N857;Maintenance and construction operations need to be able to collect road conditions and weather data from maintenance vehicle on-board sensors.
+N864;The Driver needs to be warned by the connected vehicle or have control actions taken based on information received regarding potentially hazardous road conditions or road hazards
+N865;The Connected Vehicle needs to be able to provide warnings to the driver or control actions to the vehicle based upon warnings received from nearby special vehicles.
+N866;The Driver needs to receive warnings or have the vehicle automatically perform control actions relating to pedestrians, cyclists, and other non-motorized users that are sharing the roadway with the vehicle.
+N867;Drivers need the vehicle to be able to take automated control actions if it looks like an unsafe situation occurs as the vehicle is approaching an intersection.
+N868;The Connected Vehicle needs to be able to move into a platoon and inform the vehicle driver of how, when, and where to safely join a platoon.
+N869;The Connected Vehicle needs to be able to operate in a platoon, including coordination of speed and gap policy with other vehicles in the platoon.
+N870;The Connected Vehicle needs to be able to leave a platoon and return manual throttle control to the driver so they can change lanes safely.
+N871;Traffic Operations needs to monitor platoon vehicles to enable strings of vehicles to be more efficiently formed by sharing performance parameters and destinations.
+N872;Traffic Operations needs to be able to manage the operation of automated lanes on highways or roadways.
+N875;Vehicle Operators, PID users and system operators need their devices to operate from a common geographic reference.
+N876;Vehicle operators, field system operators, PID users, system operators and support system operators need to be able to exchange messages in a secure fashion, so that no other party can easily understand the contents of the message.
+N878;Vehicle Operators and PID users need their vehicles and devices to determine their current location.
+N879;Traffic operations need be able to collect road conditions and weather data from environmental sensors on or in the vicinity of the roadway.
+N880;Weather Systems need be able to collect road conditions and weather data from environmental sensors on or in the vicinity of the roadway.
+N881;Enforcement agenies need to be able to monitor vehicle speeds as measured by field equipment to determine when vehicle speed is excessive.
+N882;Traffic Operations needs to be able to collect emissions data to support development of demand management strategies.
+N883;Transit operations needs to be able to share fare information with traveler information systems and other transit operations.
+N884;Drivers need in-vehicle access to the information about the movement of transit vehicles in the vicinity of the vehicle.
+N885;Parking Operations needs to be capable of monitoring occupancy of spaces in a loading/unloading zone.
+N886;Parking Operations needs to be capable of accepting future reservations for the use of spaces in a loading/unloading zone.
+N887;A driver or fleet operator needs to be able to book in advance a loading/ unloading zone space.
+N888;Parking Operations needs to be able to support a system of electronic payment, either at the time of use, or in advance, for loading/ unloading zone spaces.
+N889;Operating agencies need to be able to maintain the hardware and software assets installed in the center so that the assets continue to operate as designed.
+N890;Operating agencies need to be able to monitor the status of center hardware assets in order to diagnose problems that may occur during operations.
+N891;Operating agencies need to be able to reconfigure center assets as well as perform installation or upgrade of software used to support operations.
+N892;Operating agencies need to be able to maintain ITS devices that are installed in the field so that the devices continue to operate as designed.
+N893;Operating agencies need to be able to perform the maintenance on ITS devices remotely or in the field.
+N894;Operating agencies need to be able to monitor the status of field equipment in order to diagnose problems that may occur during operations.
+N895;Operating agencies need to be able to adjust configuration of field equipment as well as perform installation or upgrade of software used by the field equipment.
+N896;Vehicle service agencies need to be able to remotely diagnose maintenance issues within vehicle on board equipment.
+N897;Vehicle service agencies need to be able to remotely perform maintenance actions to vehicle on board equipment such as configuration adjustments or software installation or upgrade.
+N898;Transportation agencies need to be able to support both hardware and software maintenance of ITS public devices that are installed in traveler environments like transit stations and other public areas frequented by travelers
+N899;Transportation agencies need to be able to perform the maintenance on ITS public devices remotely or in the field.
+N900;Transportation agencies need to be able to perform maintenance on ITS public devices such as configuration adjustments or software installation or upgrade.
+N901;Transportation agencies need to be able to monitor the status of applications running on personal devices and support the installation, reconfiguration, or upgrade of the applications.
+N902;Traveler Information needs to be able to disseminate to connected vehicles current local statutes, regulations, ordinances, and rules.
+N903;Traveler Information needs to be able to disseminate to personal device applications the current local statutes, regulations, ordinances, and rules.
+N904;Traffic regulatory agencies need to be able to provide current local statutes, regulations, ordinances, and rules to both traffic agencies and to traveler information.
+N905;Vehicle and Personal device operators need to be able to validate and use traffic codes.

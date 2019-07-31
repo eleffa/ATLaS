@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//features/extractDict.py=utf-8
+encoding//features/similarities.py=utf-8
+encoding//irmodels/Ldawithgensim.py=utf-8
+encoding//irmodels/Lsiwithgensim.py=utf-8
+encoding//irmodels/VsmTracelab.py=utf-8
+encoding//irmodels/Vsmwithtracelab.py=utf-8
+encoding//utils/Eval.py=utf-8
+encoding//utils/Eval_aggreg.py=utf-8
+encoding//utils/Eval_v2.py=utf-8
+encoding//utils/FMeasureCurve.py=UTF-8
+encoding//utils/PrecisionRecallCurve.py=UTF-8
+encoding//utils/eval_v3.py=utf-8
+encoding//utils/eval_v4.py=utf-8
+encoding//utils/eval_v5.py=utf-8
+encoding/main.py=utf-8
