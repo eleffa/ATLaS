@@ -50,14 +50,21 @@ Source code
 -----------
 The code is separated into the following parts:
 
-aggregation : it provides the code for the semi-supervised training
-SIFmaster : this is the code of the code of Arora Sanjeev for the paper "A Simple but Tough-to-Beat Baseline for Sentence Embeddings".
-feature : it provides the code for extraction of words, noun and verbal pharses and the computation of the defined similarity scores.
-helpers : it provides dictionaries, stopword files and the architeture of VSM in tracelab.
-inputs : it provides all the evaluated datasets.
-outputs : it provides the results of the inputs data. 
-irmodels : it provides all the information retrieval and machine learning models. VsmTracelab.py is the python version of the SEMERU Component Library.
-utils : it provides utilisty functions
+- aggregation : it provides the code for the semi-supervised training
+
+- SIFmaster : this is the code of the code of Arora Sanjeev for the paper "A Simple but Tough-to-Beat Baseline for Sentence Embeddings".
+
+- feature : it provides the code for extraction of words, noun and verbal pharses and the computation of the defined similarity scores.
+
+- helpers : it provides dictionaries, stopword files and the architeture of VSM in tracelab.
+
+- inputs : it provides all the evaluated datasets.
+
+- outputs : it provides the results of the inputs data. 
+
+- irmodels : it provides all the information retrieval and machine learning models. VsmTracelab.py is the python version of the SEMERU Component Library.
+
+- utils : it provides utilisty functions
 
 References
 ----------
