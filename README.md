@@ -1,4 +1,4 @@
-#ATLaS
+# ATLaS
 
 Context : Traceability in collaborative system engineering
 ----------------------------------------------------------
