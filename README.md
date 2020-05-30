@@ -12,7 +12,7 @@ Thus, we investigate the benefits of the latest advances in semi-supervised appr
 ATLaS  Architecture
 ------------------
 
-![alt ATLaS Architecture](https://github.com/eleffa/ATLaS/blob/master/image1.jpg?raw=true)
+![alt ATLaS Architecture](https://github.com/eleffa/ATLaS/master/image1.png?raw=true)
 
 - In Step 1 “Compute similarities”, we perform pre-processing of the input data which consists of the tokenization and Stopwords removal.
 
