@@ -1,5 +1,5 @@
-Context : AGGREGATION TRACE LINKS SUPPORT (ATLaS)
---------
+Context : Traceability in collaborative system engineering
+----------------------------------------------------------
 The development of complex systems involves the collaboration of many stakeholders. In order to design the system, they produce many artefacts i.e., requirements and models that are correlated with each other’s and which evolve constantly. In such a volatile environment, there is a critical need to manage the impact of the different changes occurring during the project lifetime. Traceability, as defined by Edwards and Howell, is “A technique used to provide a relationship between the requirements, the design and the final implementation of the system.”
 
 In complex systems engineering, establishing such traceability involves dealing with a large volume of requirements and models. For example, the full specification of an aircraft includes about 10,000 requirements and a subway line of about 6,000. And modelling an aircraft can lead to hundreds of thousands of elements in hundreds of different models. Dealing manually with traceability issues in such a context is obviously unbearable.
@@ -9,8 +9,8 @@ In the literature, many works propose to automate the identification of traceabi
 Thus, we investigate the benefits of the latest advances in semi-supervised approaches and NLP approaches in order to improve the performances of IR techniques. We aim to enhance candidate traceability links generation and suggestion to the analysts. Thus, we propose an approach, called ATLaS (Aggregation Trace Links Support). It is based on the clustering hypothesis that combines different strategies of IR and NLP techniques (i.e. word-embeddings and sentence embeddings) to improve the accuracy of IR techniques.
 
 
-ATLaS  Architecture
-------------------
+AGGREGATION TRACE LINKS SUPPORT (ATLaS) Architecture
+----------------------------------------------------
 
 ![alt ATLaS Architecture](https://github.com/eleffa/ATLaS/blob/master/Image1.png?raw=true)
 
