@@ -1,4 +1,4 @@
-# ATLaS
+# AGGREGATION TRACE LINKS SUPPORT : ATLaS
 
 Context : Traceability in collaborative system engineering
 ----------------------------------------------------------
@@ -11,7 +11,7 @@ In the literature, many works propose to automate the identification of traceabi
 Thus, we investigate the benefits of the latest advances in semi-supervised approaches and NLP approaches in order to improve the performances of IR techniques. We aim to enhance candidate traceability links generation and suggestion to the analysts. Thus, we propose an approach, called ATLaS (Aggregation Trace Links Support). It is based on the clustering hypothesis that combines different strategies of IR and NLP techniques (i.e. word-embeddings and sentence embeddings) to improve the accuracy of IR techniques.
 
 
-AGGREGATION TRACE LINKS SUPPORT (ATLaS) Architecture
+ATLaS Architecture
 ----------------------------------------------------
 
 ![alt ATLaS Architecture](https://github.com/eleffa/ATLaS/blob/master/Image1.png?raw=true)
