@@ -12,15 +12,13 @@ Thus, we investigate the benefits of the latest advances in semi-supervised appr
 ATLaS  Architecture
 ------------------
 
-- In Module 1 "Artifact pre-processing", artifacts are transformed into Bags of Words (BoW) and phrases.
+![alt ATLaS Architecture](https://github.com/eleffa/ATLaS/blob/master/image1.jpg?raw=true)
 
-- In Module 2 "Calculating Measures and Similarity Scores", the bags previously products are used to calculate measures and similarity scores between the artifacts. These measures and scores constitute the vector of descriptors of each pair of artifacts. Together, these vectors form the descriptor matrix.
-Thus, this module is composed of three components: the component "Calculation of measurements
-similarity component" means the "Calculation of similarity scores" component, and the "Contextual Dictionary Construction".
+- In Step 1 “Compute similarities”, we perform pre-processing of the input data which consists of the tokenization and Stopwords removal.
 
-- Module 3 "Calculation of the confidence measure", integrates the heuristic defined for build a little training game. This one associated with the matrix of descriptors is used to compute a prediction function (or a predictive model) that will provide a confidence measure determining the probability that a pair of artifacts is related ("true") or not ("false"). This module is composed of two components: the component "Building the Example Database" and the "Link Classification" component.
+- In step 2 “Build training set”, we propose a heuristic to label some pairs of artefacts as related or non-related. 		
 
-- In module 4 "Identification of link types", the formal definitions of the types of links are applied to the list of links considered true.
+- In step 3 “Classify Links”, we use the descriptor matrix and the labels vector as inputs.
 
 
 
