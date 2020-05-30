@@ -1,3 +1,5 @@
+#ATLaS
+
 Context : Traceability in collaborative system engineering
 ----------------------------------------------------------
 The development of complex systems involves the collaboration of many stakeholders. In order to design the system, they produce many artefacts i.e., requirements and models that are correlated with each other’s and which evolve constantly. In such a volatile environment, there is a critical need to manage the impact of the different changes occurring during the project lifetime. Traceability, as defined by Edwards and Howell, is “A technique used to provide a relationship between the requirements, the design and the final implementation of the system.”
